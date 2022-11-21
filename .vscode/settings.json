@@ -1,0 +1,29 @@
+{
+    "editor.wordWrap": "bounded",
+
+    "files.exclude": {
+        "**/*.aux": true,
+        "**/*.bbl": true,
+        "**/*.blg": true,
+        "**/*.fdb_latexmk": true,
+        "**/*.fls": true,
+        "**/*.log": true,
+        "**/*.lot": true,
+        "**/*.lof": true,
+        "**/*.out": true,
+        "**/*.synctex.gz": true,
+        "**/*.toc": true,
+        "main.run.xml": true
+    },
+    "files.associations": {
+        "*.tex": "tex"
+    },
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+
+    "ltex.completionEnabled": true,
+    "ltex.language": "de-DE",
+    "ltex.enabled": true,
+    "ltex.additionalRules.enablePickyRules": true
+}
