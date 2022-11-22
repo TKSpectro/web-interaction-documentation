@@ -51,5 +51,41 @@
     \field{urlmonth}{11}
     \field{urlyear}{2022}
   \endentry
+
+  \entry{storybook_storybook_nodate}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{Storybook}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Storybook is a frontend workshop for building UI components and pages in
+  isolation. Thousands of teams use it for UI development, testing, and
+  documentation. It’s open source and free.%
+    }
+    \field{shorttitle}{Storybook}
+    \field{title}{Storybook: {Frontend} workshop for {UI} development}
+    \verb{url}
+    \verb https://storybook.js.org
+    \endverb
+    \verb{file}
+    \verb Snapshot:/home/spectro/Zotero/storage/8EQJE27F/storybook.js.org.html:
+    \verb text/html
+    \endverb
+    \field{urlday}{22}
+    \field{urlmonth}{11}
+    \field{urlyear}{2022}
+  \endentry
 \enddatalist
 \endinput
