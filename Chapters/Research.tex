@@ -1,0 +1,53 @@
+\chapter{Recherche}
+
+\label{Chapter3}
+
+\section{Allgemeines}
+
+Der Begriff \emph{Accessibility} oder abgekürzt \emph{a11y} bezeichnet eine Gestaltung der Umwelt, sodass sie auch von Menschen mit Beeinträchtigungen ohne zusätzliche Hilfen genutzt und wahrgenommen werden kann. \cite{Bundesfachstelle_Barrierefreiheit_a11y_Definition} 
+
+Zu diesen Beeinträchtigungen zählen unter anderem:
+
+\begin{itemize}
+    \item Auditiv
+    \item Kognitiv
+    \item Neurologisch
+    \item Physisch
+    \item Sprache
+\end{itemize}
+
+Die Umsetzung von a11y auf Webseiten kann außerdem bei temporären Einschränkungen helfen, wie z.B. bei einer Verletzung oder einer Krankheit, einem gebrochenen Arm oder einer verlorenen Brille. Ebenfalls kann es bei situationsabhängigen Limitierungen helfen, wie z.B. helles Tageslicht oder ein lauter Raum in dem ein Audio/Video nicht hörbar ist.
+
+\section{ARIA Authoring Practices (APG)}
+
+\section{Tools zur Analyse}
+
+\begin{itemize}
+    \item \href{https://developers.google.com/web/tools/lighthouse/#devtools}{Lighthouse}
+    \item \href{https://chrome.google.com/webstore/detail/ibm-equal-access-accessib/lkcagbfjnkomcinoddgooolagloogehp?hl=en-US}{IBM Equal Access Accessibility Checker}
+    \item \href{https://www.deque.com/axe/}{Deque Axe}
+    \item \href{https://wave.webaim.org/extension/}{Wave}
+    \item \href{https://support.freedomscientific.com/Downloads/JAWS}{JAWS (Screenreader)}
+    \item \href{https://www.nvaccess.org/download/}{NVAccess (Screenreader)}
+\end{itemize}
+
+
+\section{Angular}
+
+\subsection{Material UI}
+
+Angular Material UI (MUI) ist eine Sammlung von UI Komponenten, die auf Angular basieren. \cite{angular_components_team_angular_nodate} Diese sind teilweise bereits mit a11y ausgestattet, wie z.B. die \href{https://material.angular.io/components/select/overview#accessibility}{Selects} oder \href{https://material.angular.io/components/checkbox/overview#accessibility}{Checkboxen}. Neben den automatisch eingestellten ARIA-Tags gibt die Dokumentation für die meisten Komponenten weitere Tags an, welche vom Entwickler gesetzt werden sollten. Siehe z.B. \href{https://material.angular.io/components/dialog/overview#accessibility}{Dialog}.
+
+MUI bietet außerdem ein \emph{Component Dev Kit (CDK)} an. Dieses bietet verschiedene Hilfsfunktionen, welche für die Entwicklung von eigenen a11y optimierten Komponenten verwendet werden können. \cite{angular_components_team_angular_nodate}
+
+\subsection{Google Codelab - Angular a11y}
+
+Google Codelab sind Lernkurse zur eigenständigen Bearbeitung. In diesem Codelab wird ein Beispielprojekt erstellt, welches die Grundlagen von a11y in Angular beinhaltet. Dabei werden Themen wie z.B. Farbkontraste, Semantisches HTML, Fokus Kontroller und verschiedene andere Dinge behandlet.
+
+\section{React Libraries}
+
+\subsection{React-Aria}
+
+\subsection{HeadlessUI}
+
+\subsection{Radix}

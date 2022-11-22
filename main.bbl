@@ -17,28 +17,37 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
-  \entry{Bundesfachstelle_Barrierefreiheit_a11y_Definition}{misc}{}
-    \list{language}{1}{%
-      {de}%
+  \entry{angular_components_team_angular_nodate}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Angular Components Team}},
+         familyi={A\bibinitperiod},
+      }}%
     }
+    \list{language}{1}{%
+      {en-US}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labeldatesource}{nodate}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
     \field{abstract}{%
-    Definition Barrierefreiheit%
+    UI component infrastructure and Material Design components for Angular web
+  applications.%
     }
-    \field{title}{Wie ist {Barrierefreiheit} definiert?}
+    \field{title}{Angular {Material}}
     \verb{url}
-    \verb https://www.bundesfachstelle-barrierefreiheit.de/DE/Ueber-Uns/Definit
-    \verb ion-Barrierefreiheit/definition-barrierefreiheit_node.html
+    \verb https://material.angular.io/
     \endverb
     \verb{file}
-    \verb Snapshot:/home/spectro/Zotero/storage/8TYLPFJH/definition-barrierefre
-    \verb iheit_node.html:text/html
+    \verb Snapshot:/home/spectro/Zotero/storage/VJWSV2WE/material.angular.io.ht
+    \verb ml:text/html
     \endverb
-    \field{journaltitle}{Bundesfachstelle Barrierefreiheit}
-    \field{urlday}{21}
+    \field{journaltitle}{Angular Material}
+    \field{urlday}{22}
     \field{urlmonth}{11}
     \field{urlyear}{2022}
   \endentry
