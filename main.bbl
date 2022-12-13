@@ -52,6 +52,197 @@
     \field{urlyear}{2022}
   \endentry
 
+  \entry{bundesfachstelle_barrierefreiheit_wie_nodate}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={{Bundesfachstelle Barrierefreiheit}},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {de}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Definition Barrierefreiheit%
+    }
+    \field{title}{Wie ist {Barrierefreiheit} definiert?}
+    \verb{url}
+    \verb https://www.bundesfachstelle-barrierefreiheit.de/DE/Ueber-Uns/Definit
+    \verb ion-Barrierefreiheit/definition-barrierefreiheit_node.html
+    \endverb
+    \verb{file}
+    \verb Snapshot:/home/spectro/Zotero/storage/8TYLPFJH/definition-barrierefre
+    \verb iheit_node.html:text/html
+    \endverb
+    \field{journaltitle}{Bundesfachstelle Barrierefreiheit}
+    \field{urlday}{21}
+    \field{urlmonth}{11}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{initiative_wai_developing_nodate}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=IWWWA}{%
+         family={Initiative\bibnamedelima (WAI)},
+         familyi={I\bibinitperiod\bibinitdelim W\bibinitperiod},
+         given={W3C Web\bibnamedelima Accessibility},
+         giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{IWWWA1}
+    \strng{fullhash}{IWWWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{extradate}{1}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{abstract}{%
+    Accessibility resources free online from the international standards
+  organization: W3C Web Accessibility Initiative (WAI).%
+    }
+    \field{title}{Developing a {Keyboard} {Interface}}
+    \verb{url}
+    \verb https://www.w3.org/WAI/ARIA/apg/practices/keyboard-interface/
+    \endverb
+    \verb{file}
+    \verb Snapshot:/home/spectro/Zotero/storage/VQ2QCKLJ/keyboard-interface.htm
+    \verb l:text/html
+    \endverb
+    \field{journaltitle}{Web Accessibility Initiative (WAI)}
+    \field{urlday}{13}
+    \field{urlmonth}{12}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{initiative_wai_landmark_nodate}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=IWWWA}{%
+         family={Initiative\bibnamedelima (WAI)},
+         familyi={I\bibinitperiod\bibinitdelim W\bibinitperiod},
+         given={W3C Web\bibnamedelima Accessibility},
+         giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{IWWWA1}
+    \strng{fullhash}{IWWWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{extradate}{2}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{abstract}{%
+    Accessibility resources free online from the international standards
+  organization: W3C Web Accessibility Initiative (WAI).%
+    }
+    \field{title}{Landmark {Regions}}
+    \verb{url}
+    \verb https://www.w3.org/WAI/ARIA/apg/practices/landmark-regions/
+    \endverb
+    \verb{file}
+    \verb Snapshot:/home/spectro/Zotero/storage/HH743DC7/landmark-regions.html:
+    \verb text/html
+    \endverb
+    \field{journaltitle}{Web Accessibility Initiative (WAI)}
+    \field{urlday}{13}
+    \field{urlmonth}{12}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{initiative_wai_patterns_nodate}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=IWWWA}{%
+         family={Initiative\bibnamedelima (WAI)},
+         familyi={I\bibinitperiod\bibinitdelim W\bibinitperiod},
+         given={W3C Web\bibnamedelima Accessibility},
+         giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{IWWWA1}
+    \strng{fullhash}{IWWWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{extradate}{3}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{abstract}{%
+    Accessibility resources free online from the international standards
+  organization: W3C Web Accessibility Initiative (WAI).%
+    }
+    \field{title}{Patterns}
+    \verb{url}
+    \verb https://www.w3.org/WAI/ARIA/apg/patterns/
+    \endverb
+    \verb{file}
+    \verb Snapshot:/home/spectro/Zotero/storage/BELTW6IP/patterns.html:text/htm
+    \verb l
+    \endverb
+    \field{journaltitle}{Web Accessibility Initiative (WAI)}
+    \field{urlday}{13}
+    \field{urlmonth}{12}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{initiative_wai_providing_nodate}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=IWWWA}{%
+         family={Initiative\bibnamedelima (WAI)},
+         familyi={I\bibinitperiod\bibinitdelim W\bibinitperiod},
+         given={W3C Web\bibnamedelima Accessibility},
+         giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{IWWWA1}
+    \strng{fullhash}{IWWWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{extradate}{4}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{abstract}{%
+    Accessibility resources free online from the international standards
+  organization: W3C Web Accessibility Initiative (WAI).%
+    }
+    \field{title}{Providing {Accessible} {Names} and {Descriptions}}
+    \verb{url}
+    \verb https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/
+    \endverb
+    \verb{file}
+    \verb Snapshot:/home/spectro/Zotero/storage/Q89BXMDM/names-and-descriptions
+    \verb .html:text/html
+    \endverb
+    \field{journaltitle}{Web Accessibility Initiative (WAI)}
+    \field{urlday}{13}
+    \field{urlmonth}{12}
+    \field{urlyear}{2022}
+  \endentry
+
   \entry{storybook_storybook_nodate}{misc}{}
     \name{author}{1}{}{%
       {{hash=S}{%
@@ -85,6 +276,40 @@
     \endverb
     \field{urlday}{22}
     \field{urlmonth}{11}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{w3c_web_accessibility_initiative_wai_aria_nodate}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{W3C Web Accessibility Initiative (WAI)}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    Accessibility resources free online from the international standards
+  organization: W3C Web Accessibility Initiative (WAI).%
+    }
+    \field{title}{{ARIA} {Authoring} {Practices} {Guide}}
+    \verb{url}
+    \verb https://www.w3.org/WAI/ARIA/apg/
+    \endverb
+    \verb{file}
+    \verb Snapshot:/home/spectro/Zotero/storage/7KMYDBL7/apg.html:text/html
+    \endverb
+    \field{journaltitle}{Web Accessibility Initiative (WAI)}
+    \field{urlday}{13}
+    \field{urlmonth}{12}
     \field{urlyear}{2022}
   \endentry
 \enddatalist

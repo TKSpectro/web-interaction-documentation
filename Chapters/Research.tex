@@ -4,7 +4,7 @@
 
 \section{Allgemeines}
 
-Der Begriff \emph{Accessibility} oder abgekürzt \emph{a11y} bezeichnet eine Gestaltung der Umwelt, sodass sie auch von Menschen mit Beeinträchtigungen ohne zusätzliche Hilfen genutzt und wahrgenommen werden kann. \cite{Bundesfachstelle_Barrierefreiheit_a11y_Definition} 
+Der Begriff \emph{Accessibility} oder abgekürzt \emph{a11y} bezeichnet eine Gestaltung der Umwelt, sodass sie auch von Menschen mit Beeinträchtigungen ohne zusätzliche Hilfen genutzt und wahrgenommen werden kann. \cite{bundesfachstelle_barrierefreiheit_wie_nodate} 
 
 Zu diesen Beeinträchtigungen zählen unter anderem:
 
@@ -18,7 +18,54 @@ Zu diesen Beeinträchtigungen zählen unter anderem:
 
 Die Umsetzung von a11y auf Webseiten kann außerdem bei temporären Einschränkungen helfen, wie z.B. bei einer Verletzung oder einer Krankheit, einem gebrochenen Arm oder einer verlorenen Brille. Ebenfalls kann es bei situationsabhängigen Limitierungen helfen, wie z.B. helles Tageslicht oder ein lauter Raum in dem ein Audio/Video nicht hörbar ist.
 
-\section{ARIA Authoring Practices (APG)}
+\section{ARIA Authoring Practices Guide (APG)}
+
+Der ARIA Authoring Practices Guide kurz (APG) ist eine Sammlung von Beispielen und Best Practices für die Verwendung von ARIA. \cite{w3c_web_accessibility_initiative_wai_aria_nodate} Es werden verschiedene Themen wie z.B. Farbkontraste, Semantisches HTML, Fokus Kontroller und noch einiges mehr behandelt. Diese werden mit Beispielen und tiefgehenden Erklärungen dargestellt und an praktischen Beispielen erläutert.
+
+\subsection{Patterns}
+
+Der Guide stellt für quasi alle Elemente die in einer normalen Webseite vorkommen, ein Pattern, also eine Beschreibung welche Dinge bachtet werden müssen, bereit. Dies fängt bei einfachen HTML-Elementen wie z.B. Buttons oder Links an und geht bis hin zu komplexeren Elementen wie z.B. Accordions, Carousels oder Dialogen (Modale). \cite{initiative_wai_patterns_nodate}
+
+Für den Dialog wird z.B. ersteinmal grundlegend erklärt wie genau ein Dialog funktioniert und welche Elemente er beinhaltet. Danach wird auf die Tastatur Interaktionen eingegangen, welche implementiert werden sollten und auch welche HTML-Aria-Eigenschaften dafür genutzt werden können, um die best mögliche a11y zu gewährleisten. In dem direkt bereitgestellten Beispiel wird dann die Implementierung dieser Eigenschaften gezeigt und bis in kleinste Detail erläutert was jede einzelne davon bewirkt und warum diese genutzt wird.
+
+\subsection{Landmark Regions}
+
+Landmark Regions sind Bereiche einer Webseite, welche für Screenreader und andere Hilfsmittel wie z.B. Sprungmarken wichtig sind. \cite{initiative_wai_landmark_nodate} Diese werden in der Dokumentation mit Beispielen und Erklärungen vorgestellt und erklärt.
+
+Zuerst wird auf die HTML Stuktur Elemente eingegangen. Dazu gehören z.B. \emph{<header>}, \emph{<main>}, \emph{<footer>} und \emph{<nav>}. Diese werden mit Beispielen und Erklärungen vorgestellt und erklärt. Danach wird auf die ARIA Eigenschaften eingegangen, welche für die Landmark Regions genutzt werden können. Diese sind z.B. \emph{role="banner"}, \emph{role="main"}, \emph{role="contentinfo"} und \emph{role="navigation"}. Mit diesen können bestimmte Bereiche oder Informationen für Screenreader und andere Hilfsmittel markiert werden.
+
+\subsection{Accessible Names and Descriptions}
+
+Accessible Names and Descriptions sind die Namen und Beschreibungen von Elementen, welche z.B. für Screenreader wichtig sind. \cite{initiative_wai_providing_nodate} In der Dokumentation wird ausführlichst darauf eingegangen wie genau man diese Namen und Beschreibungen aufbauen und vergeben sollte und welche Möglichkeiten es dafür gibt. Dies wird auch hier wieder durch eine vielzahl an Beispielen zu den verschiedenen Möglichkeiten unterstüzt.
+
+Außerdem werden Grundregeln für die Namensgebung vorgestellt. Diese sind z.B.:
+
+\begin{itemize}
+    \item Beachtung von Warnungen und ausführliches Testen
+    \item Sichtbaren Text bevorzugen
+    \item Native Techniken bevorzugen (z.B. \emph{<label>})
+    \item Browser Fallbacks vermeiden
+    \item Kurze und nützliche Namen und Beschreibungen nutzen
+\end{itemize}
+
+\subsection{Keyboard Interface}
+
+Damit eine Seite komplett und vorallem auch barrierefrei nur mit Hilfe einer Tastatur bedienbar ist, müssen einige Dinge beachtet und explizit implementiert werden. Dies muss passieren, da die meisten Browser, im Gegensatz zu nativen Form-Elementen, keinen direkten Tastatur Support für das Steuern von GUI Komponenten bieten. \cite{initiative_wai_developing_nodate} Dies muss z.B. für Menüs, Grids, Toolbars und Dialoge von den Entwicklern übernommen werden.
+
+Die wichtigste und fundametalste Tastaturnavigation ist die Tabulator Navigation. Diese wird per \emph{Tab} und \emph{Shift + Tab} gesteuert und ermöglicht es den Fokus von einem UI Element auf das nächste zu bewegen. Zusätlich können dann die Pfeiltasten genutzt werden um den Fokus innerhalb einer Komponente zu bewegen. \cite{initiative_wai_developing_nodate}
+
+Anschließend wird in der Dokumenation noch erweiternd auf die folgenden Themen eingegangen:
+
+\begin{itemize}
+    \item Erkennbarer und vorhersehbarer Tastaturfokus
+    \item Fokus vs. Selektion und die Wahrnehmung eines doppelten Fokuses
+    \item Wann sollte die Auswahl dem Fokus automatisch folgen
+    \item Tastaturnavigation zwischen Komponenten (Die Tab-Sequence)
+    \item Tastaturnavigation innerhalb von Komponenten
+    \item Fokussierbarkeit von deaktivierten Steuerelementen
+    \item Tastenzuweisungskonventionen für allgemeine Funktionen
+    \item Tastaturkurzbefehle und wie diese vergeben werden sollten
+\end{itemize}
 
 \section{Tools zur Analyse}
 

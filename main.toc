@@ -7,16 +7,20 @@
 \contentsline {chapter}{\numberline {2}Zeitplan}{3}{chapter.11}%
 \contentsline {chapter}{\numberline {3}Recherche}{5}{chapter.12}%
 \contentsline {section}{\numberline {3.1}Allgemeines}{5}{section.13}%
-\contentsline {section}{\numberline {3.2}ARIA Authoring Practices (APG)}{5}{section.14}%
-\contentsline {section}{\numberline {3.3}Tools zur Analyse}{5}{section.15}%
-\contentsline {section}{\numberline {3.4}Storyook}{5}{section.16}%
-\contentsline {section}{\numberline {3.5}Angular}{6}{section.17}%
-\contentsline {subsection}{\numberline {3.5.1}Material UI}{6}{subsection.18}%
-\contentsline {subsection}{\numberline {3.5.2}Google Codelab - Angular a11y}{6}{subsection.19}%
-\contentsline {section}{\numberline {3.6}React Libraries}{6}{section.20}%
-\contentsline {subsection}{\numberline {3.6.1}React-Aria}{6}{subsection.21}%
-\contentsline {subsection}{\numberline {3.6.2}HeadlessUI}{6}{subsection.22}%
-\contentsline {subsection}{\numberline {3.6.3}Radix}{6}{subsection.23}%
-\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{7}{appendix.24}%
-\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{7}{section.25}%
-\contentsline {chapter}{Literatur}{9}{appendix*.26}%
+\contentsline {section}{\numberline {3.2}ARIA Authoring Practices Guide (APG)}{5}{section.14}%
+\contentsline {subsection}{\numberline {3.2.1}Patterns}{5}{subsection.15}%
+\contentsline {subsection}{\numberline {3.2.2}Landmark Regions}{6}{subsection.16}%
+\contentsline {subsection}{\numberline {3.2.3}Accessible Names and Descriptions}{6}{subsection.17}%
+\contentsline {subsection}{\numberline {3.2.4}Keyboard Interface}{6}{subsection.18}%
+\contentsline {section}{\numberline {3.3}Tools zur Analyse}{7}{section.19}%
+\contentsline {section}{\numberline {3.4}Storyook}{7}{section.20}%
+\contentsline {section}{\numberline {3.5}Angular}{7}{section.21}%
+\contentsline {subsection}{\numberline {3.5.1}Material UI}{7}{subsection.22}%
+\contentsline {subsection}{\numberline {3.5.2}Google Codelab - Angular a11y}{7}{subsection.23}%
+\contentsline {section}{\numberline {3.6}React Libraries}{8}{section.24}%
+\contentsline {subsection}{\numberline {3.6.1}React-Aria}{8}{subsection.25}%
+\contentsline {subsection}{\numberline {3.6.2}HeadlessUI}{8}{subsection.26}%
+\contentsline {subsection}{\numberline {3.6.3}Radix}{8}{subsection.27}%
+\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{9}{appendix.28}%
+\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{9}{section.29}%
+\contentsline {chapter}{Literatur}{11}{appendix*.30}%
