@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.20)  13 DEC 2022 13:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.20)  13 DEC 2022 13:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -847,16 +847,16 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 Kapitel 3.
 1: section
 [5] [6]) [7] [8]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 286.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 290.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (2.86644pt too wide) in paragraph at lines 286--286
+Overfull \hbox (2.86644pt too wide) in paragraph at lines 290--290
 [][]\T1/ppl/m/n/10.95 Angular Com-ponents Team (o.D.). \T1/ppl/m/it/10.95 An-gu-lar Ma-te-ri-al\T1/ppl/m/n/10.95 . en-US. \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / material .
  []
 
 
-Overfull \hbox (9.56499pt too wide) in paragraph at lines 286--286
+Overfull \hbox (9.56499pt too wide) in paragraph at lines 290--290
 [][]\T1/ppl/m/n/10.95 Bundesfachstelle Bar-rie-re-frei-heit (o.D.). \T1/ppl/m/it/10.95 Wie ist Bar-rie-re-frei-heit de-fi-niert? \T1/ppl/m/n/10.95 de. \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https :
  []
 
@@ -881,7 +881,7 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  96i,19n,93p,1866b,2367s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (19 pages, 127604 bytes).
+Output written on main.pdf (19 pages, 127552 bytes).
 PDF statistics:
  274 PDF objects out of 1000 (max. 8388607)
  240 compressed objects within 3 object streams
