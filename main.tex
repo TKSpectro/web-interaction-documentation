@@ -24,7 +24,7 @@
 
 \documentclass[
 11pt, % The default document font size, options: 10pt, 11pt, 12pt
-%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
 ngerman, % ngerman for German, english for English
 singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
 %draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
@@ -49,6 +49,8 @@ chapterinoneline, % Uncomment to place the chapter title next to the number on o
 \addbibresource{zotero.bib} % The filename of the bibliography
 
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+
+\usepackage{hyperref}
 
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
@@ -265,10 +267,9 @@ chapterinoneline, % Uncomment to place the chapter title next to the number on o
 \include{Chapters/Introduction}
 \include{Chapters/Timetable}
 \include{Chapters/Research}
-%\include{Chapters/Chapter2} 
-%\include{Chapters/Chapter3}
-%\include{Chapters/Chapter4} 
-%\include{Chapters/Chapter5} 
+\include{Chapters/AccessabilityTools.tex}
+\include{Chapters/Turbomeet.tex}
+\include{Chapters/Conclusion}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES

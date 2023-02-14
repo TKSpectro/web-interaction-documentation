@@ -1,6 +1,5 @@
 \chapter{Recherche}
-
-\label{Chapter3}
+\label{Research}
 
 \section{Allgemeines}
 
@@ -23,6 +22,7 @@ Die Umsetzung von a11y auf Webseiten kann außerdem bei temporären Einschränku
 Der ARIA Authoring Practices Guide kurz (APG) ist eine Sammlung von Beispielen und Best Practices für die Verwendung von ARIA. \cite{w3c_web_accessibility_initiative_wai_aria_nodate} Es werden verschiedene Themen wie z.B. Farbkontraste, Semantisches HTML, Fokus Kontroller und noch einiges mehr behandelt. Diese werden mit Beispielen und tiefgehenden Erklärungen dargestellt und an praktischen Beispielen erläutert.
 
 \subsection{Patterns}
+\label{secsec:apg_patterns}
 
 Der Guide stellt für quasi alle Elemente die in einer normalen Webseite vorkommen, ein Pattern, also eine Beschreibung welche Dinge bachtet werden müssen, bereit. Dies fängt bei einfachen HTML-Elementen wie z.B. Buttons oder Links an und geht bis hin zu komplexeren Elementen wie z.B. Accordions, Carousels oder Dialogen (Modale). \cite{initiative_wai_patterns_nodate}
 
@@ -69,20 +69,30 @@ Anschließend wird in der Dokumenation noch erweiternd auf die folgenden Themen 
 
 \section{Tools zur Analyse}
 
+Die folgenden Tools wurden in der Recherche gefunden und können zur Analyse von Webseiten verwendet werden. Eine ausführliche Beschreibung der einzelnen Tools findet sich in den jeweiligen Kapiteln.
+
 \begin{itemize}
-    \item \href{https://developers.google.com/web/tools/lighthouse/#devtools}{Lighthouse}
-    \item \href{https://chrome.google.com/webstore/detail/ibm-equal-access-accessib/lkcagbfjnkomcinoddgooolagloogehp?hl=en-US}{IBM Equal Access Accessibility Checker}
-    \item \href{https://www.deque.com/axe/}{Deque Axe}
-    \item \href{https://wave.webaim.org/extension/}{Wave}
-    \item \href{https://support.freedomscientific.com/Downloads/JAWS}{JAWS (Screenreader)}
-    \item \href{https://www.nvaccess.org/download/}{NVAccess (Screenreader)}
+    \item \hyperref[sec:a11yToolsLighthouse]{Lighthouse (SEO, Performance, Accessibility Analyse)}
+    \item \hyperref[sec:a11yToolsIBMEAAC]{IBM Equal Access Accessibility Checker}
+    \item \hyperref[sec:a11yToolsAxe]{Deque Axe (Accessibility Analyse)}
+    \item \hyperref[sec:a11yToolsWAVE]{Wave (Accessibility Analyse)}
+    \item \hyperref[sec:a11yToolsJAWS]{JAWS (Screenreader)}
+    \item \hyperref[sec:a11yToolsNVDA]{NVDA (Screenreader)}
 \end{itemize}
 
 \section{Storyook}
 
-Was ist Storybook?
+Storybook ist eine Open-Source-JavaScript-Bibliothek, die es Entwicklern ermöglicht, Komponenten isoliert und unabhängig voneinander zu entwickeln, zu testen und zu dokumentieren. \cite{storybook_storybook_nodate} Mit Storybook können Entwickler eine interaktive und benutzerfreundliche Benutzeroberfläche erstellen, um ihre Komponenten in verschiedenen Zuständen zu präsentieren, ohne dabei auf eine vollständige Anwendung angewiesen zu sein.
 
-Storybook ermöglicht es Entwicklern, UI-Komponenten in einer isolierten Entwicklungsumgebung zu entwickeln, zu testen und zu dokumentieren. \cite{storybook_storybook_nodate}
+Storybook ist besonders nützlich für Projekte, die auf Komponentenarchitekturen und Design-Systemen basieren, da es Entwicklern hilft, Komponenten unabhängig voneinander zu testen und sicherzustellen, dass sie ordnungsgemäß funktionieren, bevor sie in die Anwendung integriert werden.
+
+Die Bibliothek bietet außerdem verschiedene Add-Ons und Tools, die es Entwicklern ermöglichen, die Zugänglichkeit ihrer Komponenten zu überprüfen und sicherzustellen, dass sie die Anforderungen der Web Content Accessibility Guidelines (WCAG) erfüllen.
+
+Ein Beispiel für ein Accessibility-Add-On in Storybook ist das a11y Add-On, das eine Integration mit der Accessibility Testing-Engine \hyperref[sec:a11yToolsAxe]{\emph{axe-core}} bietet. Mit diesem Add-On können Entwickler ihre Komponenten auf Barrierefreiheitsprobleme testen, wie z.B. fehlende Alternativtexte für Bilder oder mangelnde Kontrastverhältnisse für Texte und Hintergründe.
+
+Ein weiteres Beispiel ist das \emph{Storybook Addon Docs} Add-On, das es Entwicklern ermöglicht, Dokumentationen für ihre Komponenten zu erstellen, einschließlich der Zugänglichkeitsanforderungen und -hinweise für jede Komponente.
+
+Zusammenfassend bietet Storybook verschiedene Möglichkeiten, um die Zugänglichkeit von Komponenten zu testen und sicherzustellen, dass sie für alle Benutzer, einschließlich derjenigen mit Behinderungen, zugänglich sind.
 
 \section{Angular}
 
@@ -92,14 +102,72 @@ Angular Material UI (MUI) ist eine Sammlung von UI Komponenten, die auf Angular 
 
 MUI bietet außerdem ein \emph{Component Dev Kit (CDK)} an. Dieses bietet verschiedene Hilfsfunktionen, welche für die Entwicklung von eigenen a11y optimierten Komponenten verwendet werden können. \cite{angular_components_team_angular_nodate}
 
+Die Vorteile von Material UI sind:
+
+\begin{itemize}
+    \item Zugänglichkeit: Material UI legt Wert auf Accessibility-Features und stellt sicher, dass alle Komponenten vollständig zugänglich sind, um eine barrierefreie Nutzung der Webanwendung zu gewährleisten.
+    \item Leicht anpassbar: Material UI bietet eine Vielzahl von Möglichkeiten, um Komponenten an das Design der Anwendung anzupassen. Dabei können Themes, Farben und andere Design-Elemente einfach angepasst werden.
+    \item Große Community: Material UI hat eine große Community von Entwicklern, die dazu beitragen, die Bibliothek ständig zu verbessern und zu erweitern.
+\end{itemize}
+
+Ein Nachteil ist, dass die Bibliothek möglicherweise nicht so gut anpassbar ist wie andere UI-Bibliotheken, insbesondere wenn es um das Layout geht. Dies kann zu Einschränkungen bei der Gestaltung von Webanwendungen führen. Bestimmte Stylings müssen über teilweise umstandliche CSS-Regeln angepasst werden und überschrieben werden.
+
+Insgesamt ist Material UI eine robuste Bibliothek mit vielen nützlichen Funktionen und einem großen Unterstützungssystem. Es ist eine gute Wahl für Entwickler, die eine umfassende UI-Lösung für Angular suchen, besonders wenn Zugänglichkeit und Benutzerfreundlichkeit eine hohe Priorität haben.
+
 \subsection{Google Codelab - Angular a11y}
 
 Google Codelab sind Lernkurse zur eigenständigen Bearbeitung. In diesem Codelab wird ein Beispielprojekt erstellt, welches die Grundlagen von a11y in Angular beinhaltet. Dabei werden Themen wie z.B. Farbkontraste, Semantisches HTML, Fokus Kontroller und verschiedene andere Dinge behandlet.
 
-\section{React Libraries}
+\section{React}
 
 \subsection{React-Aria}
 
+React-Aria ist eine React-Bibliothek, die von Adobe entwickelt wurde und es Entwicklern ermöglicht, barrierefreie Benutzeroberflächen in React zu erstellen. Die Bibliothek bietet eine Sammlung von React-Komponenten und Hooks, die speziell für die Unterstützung von Accessibility-Funktionen entwickelt wurden.
+
+Die Vorteile von React-Aria sind:
+
+\begin{itemize}
+    \item Accessibility-Features: React-Aria bietet Entwicklern eine einfache und konsistente Möglichkeit, Accessibility-Features wie Tastaturzugänglichkeit und Screen-Reader-Kompatibilität in ihre React-Komponenten zu integrieren.
+    \item Einfachheit: React-Aria bietet eine einfache API und eine umfassende Dokumentation, die es Entwicklern erleichtert, barrierefreie Komponenten zu erstellen.
+    \item Flexibilität: React-Aria bietet eine Vielzahl von Konfigurationsoptionen, um sicherzustellen, dass die Accessibility-Funktionen den Bedürfnissen des Benutzers entsprechen. Entwickler können z.B. die Reihenfolge der Fokusnavigation anpassen oder die Funktionsweise von ARIA-Attributen konfigurieren.
+    \item Aktive Community: React-Aria hat eine aktive Entwickler-Community, die regelmäßig Updates und Verbesserungen zur Verfügung stellt und Fragen beantwortet.
+\end{itemize}
+
+Ein Nachteil von React-Aria ist, dass die Bibliothek möglicherweise nicht für alle Anwendungsfälle geeignet ist. Da die Accessibility-Funktionen von React-Aria zusätzliche Markup- und Code-Elemente erfordern, kann dies zu einer erhöhten Komplexität von React-Komponenten führen.
+
+Ein weiterer möglicher Nachteil ist, dass Entwickler, die nicht vertraut sind mit den Accessibility-Features von React-Aria, eine zusätzliche Lernkurve haben können, um die Bibliothek effektiv einzusetzen.
+
 \subsection{HeadlessUI}
 
+HeadlessUI ist eine React-Bibliothek, die von Tailwind Labs entwickelt wurde und eine Sammlung von vollständig zugänglichen und wiederverwendbaren Headless-Komponenten bietet. HeadlessUI ist darauf ausgelegt, Entwicklern die Erstellung von benutzerdefinierten, zugänglichen Benutzeroberflächen zu erleichtern.
+
+Die Vorteile von HeadlessUI sind:
+
+\begin{itemize}
+    \item Accessibility-Features: HeadlessUI-Komponenten sind vollständig zugänglich und unterstützen Tastaturzugänglichkeit, Screenreader-Unterstützung und andere Accessibility-Features, die die Barrierefreiheit von Webanwendungen verbessern.
+    \item Anpassbarkeit: HeadlessUI-Komponenten sind \emph{headless}, d.h. sie haben keine vorgegebene visuelle Darstellung und können einfach an das Design der Anwendung angepasst werden.
+    \item Einfache Integration: HeadlessUI kann nahtlos in bestehende React-Projekte integriert werden, da es nur minimale Abhängigkeiten hat und einfach zu verwenden ist.
+    \item Gute Dokumentation: HeadlessUI bietet eine ausführliche Dokumentation und viele Beispiele, die Entwicklern helfen, die Bibliothek schnell und effektiv einzusetzen.
+\end{itemize}
+
+Ein möglicher Nachteil von HeadlessUI ist, dass die Bibliothek möglicherweise nicht für alle Anwendungsfälle geeignet ist. Da die Komponenten so anpassbar sind, erfordert ihre Verwendung möglicherweise mehr Code als die Verwendung von vorgefertigten UI-Komponenten.
+
+Ein weiterer möglicher Nachteil ist, dass die Bibliothek noch relativ neu ist und möglicherweise nicht so gut etabliert und weit verbreitet wie einige andere UI Bibliotheken. Dies kann zu einer begrenzten Unterstützung von Drittanbietern und einer kleineren Entwickler-Community führen.
+
 \subsection{Radix}
+\label{secsec:radix}
+
+Radix ist eine React-Bibliothek, die von Modulz entwickelt wurde und eine Sammlung von wiederverwendbaren Komponenten enthält, die auf einer \emph{primitive-first} Designphilosophie basieren. Radix stellt Komponenten zur Verfügung, die den Primitiven von HTML und CSS ähneln, um den Zugriff auf wichtige Accessibility-Features sicherzustellen.
+
+Die Vorteile von Radix sind:
+
+\begin{itemize}
+    \item Accessibility-Features: Radix-Komponenten sind vollständig zugänglich und unterstützen Tastaturzugänglichkeit, Screenreader-Unterstützung und andere Accessibility-Features, die die Barrierefreiheit von Webanwendungen verbessern.
+    \item Einfache Integration: Radix kann nahtlos in bestehende React-Projekte integriert werden, da es nur minimale Abhängigkeiten hat und einfach zu verwenden ist. Des Weiteren ist die Bibliothek Modular aufgebaut und installierbar, sodass nur die Komponenten installiert werden, die für die Anwendung überhaupt benötigt werden.
+    \item Anpassbarkeit: Radix-Komponenten sind so konzipiert, dass sie einfach an das Design der Anwendung angepasst werden können. Dabei wird das gleiche Prinzip wie bei HeadlessUI verwendet und die Komponenten sind \emph{headless}.
+    \item Gute Dokumentation: Radix bietet eine ausführliche Dokumentation und viele Beispiele, die Entwicklern helfen, die Bibliothek schnell und effektiv einzusetzen.
+\end{itemize}
+
+Wie auch bei HeadlessUI ist ein möglicher Nachteil von Radix, dass es noch relativ neu ist und möglicherweise nicht so gut etabliert und weit verbreitet wie einige andere UI-Bibliotheken.
+
+Insgesamt bietet Radix jedoch eine Vielzahl von Vorteilen und ist eine nützliche Bibliothek für Entwickler, die benutzerdefinierte, zugängliche Benutzeroberflächen in React erstellen möchten. Die \emph{primitive-first} Designphilosophie kann dabei helfen, die Wartbarkeit und Skalierbarkeit von Code zu verbessern, während die Zugänglichkeit von Webanwendungen gewährleistet bleibt.

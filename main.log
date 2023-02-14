@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.20)  13 DEC 2022 13:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.20)  14 FEB 2023 14:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -588,7 +588,7 @@ package with kernel methods
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 91.
+(scrhack)             need that hack, on input line 54.
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
@@ -607,41 +607,41 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip78
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 91.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 91.
-Package hyperref Info: Option `colorlinks' set `true' on input line 91.
-Package hyperref Info: Option `unicode' set `true' on input line 91.
-Package hyperref Info: Option `breaklinks' set `true' on input line 91.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 93.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 93.
+Package hyperref Info: Option `colorlinks' set `true' on input line 93.
+Package hyperref Info: Option `unicode' set `true' on input line 93.
+Package hyperref Info: Option `breaklinks' set `true' on input line 93.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 91.
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 93.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-) (./main.aux (./Chapters/Introduction.aux) (./Chapters/Timetable.aux) (./Chapters/Research.aux))
+) (./main.aux (./Chapters/Introduction.aux) (./Chapters/Timetable.aux) (./Chapters/Research.aux) (./Chapters/AccessabilityTools.aux) (./Chapters/Turbomeet.aux) (./Chapters/Conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
  (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 91.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 93.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count428
@@ -673,7 +673,7 @@ Package caption Info: End \AtBeginDocument code.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * bindingoffset: 14.22636pt
-* modes: includehead includefoot twoside 
+* modes: includehead includefoot 
 * h-part:(L,W,R)=(71.13188pt, 404.02908pt, 108.12054pt)
 * v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
 * \paperwidth=597.50787pt
@@ -681,13 +681,13 @@ Package caption Info: End \AtBeginDocument code.
 * \textwidth=404.02908pt
 * \textheight=693.49821pt
 * \oddsidemargin=13.08826pt
-* \evensidemargin=35.85056pt
+* \evensidemargin=-1.1381pt
 * \topmargin=-29.59087pt
 * \headheight=18.85364pt
 * \headsep=19.8738pt
 * \topskip=11.0pt
 * \footskip=27.46295pt
-* \marginparwidth=116.0pt
+* \marginparwidth=62.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -695,19 +695,19 @@ Package caption Info: End \AtBeginDocument code.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 91.
-Package scrbase Info: activating ngerman \abbrevname on input line 91.
-Package scrbase Info: activating ngerman \byname on input line 91.
-Package scrbase Info: activating ngerman \acknowledgementname on input line 91.
-Package scrbase Info: activating ngerman \authorshipname on input line 91.
-Package scrbase Info: activating ngerman \constantsname on input line 91.
-Package scrbase Info: activating ngerman \symbolsname on input line 91.
+(scrlayer)             \begin{document} on input line 93.
+Package scrbase Info: activating ngerman \abbrevname on input line 93.
+Package scrbase Info: activating ngerman \byname on input line 93.
+Package scrbase Info: activating ngerman \acknowledgementname on input line 93.
+Package scrbase Info: activating ngerman \authorshipname on input line 93.
+Package scrbase Info: activating ngerman \constantsname on input line 93.
+Package scrbase Info: activating ngerman \symbolsname on input line 93.
 \big@size=\dimen185
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
@@ -734,9 +734,9 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 91.
-Package biblatex Info: Reference segment=0 on input line 91.
-Package hyperref Info: Link coloring ON on input line 91.
+Package biblatex Info: Reference section=0 on input line 93.
+Package biblatex Info: Reference segment=0 on input line 93.
+Package hyperref Info: Link coloring ON on input line 93.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -746,9 +746,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count434
 )
-LaTeX Info: Redefining \ref on input line 91.
-LaTeX Info: Redefining \pageref on input line 91.
-LaTeX Info: Redefining \nameref on input line 91.
+LaTeX Info: Redefining \ref on input line 93.
+LaTeX Info: Redefining \pageref on input line 93.
+LaTeX Info: Redefining \nameref on input line 93.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -759,9 +759,7 @@ LaTeX Info: Redefining \nameref on input line 91.
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
-
-] (./main.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 5.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
@@ -787,7 +785,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 
 
 1: section
-[3] [4
+[1
 
 ] (./main.lof)
 \tf@lof=\write6
@@ -795,7 +793,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 
 
 1: section
-[5] [6
+[2
 
 ] (./main.lot)
 \tf@lot=\write7
@@ -803,11 +801,11 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 
 
 1: section
-[7] [8
+[3
 
 ]
 1: section
-[9] [10
+[4
 
 ]
 1: section
@@ -815,76 +813,152 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 
 (./Chapters/Introduction.tex
 Kapitel 1.
+
+Overfull \hbox (4.64627pt too wide) in paragraph at lines 6--7
+\T1/ppl/m/n/10.95 kön-nen, bar-rie-re-freie Web-si-tes zu er-stel-len. Die-se rei-chen von ein-fa-chen Validierungs-
+ []
+
 )
 1: section
 [1
 
 
+
 ]
 \openout2 = `Chapters/Timetable.aux'.
 
- (./Chapters/Timetable.tex [2
-
-
-
-
-]
+ (./Chapters/Timetable.tex
 Kapitel 2.
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 6.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 5.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ))
 1: section
-[3]
-\openout2 = `Chapters/Research.aux'.
-
- (./Chapters/Research.tex [4
+[2
 
 
 
 
 ]
+\openout2 = `Chapters/Research.aux'.
+
+ (./Chapters/Research.tex
 Kapitel 3.
 1: section
-[5] [6]) [7] [8]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 290.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Overfull \hbox (2.86644pt too wide) in paragraph at lines 290--290
-[][]\T1/ppl/m/n/10.95 Angular Com-ponents Team (o.D.). \T1/ppl/m/it/10.95 An-gu-lar Ma-te-ri-al\T1/ppl/m/n/10.95 . en-US. \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / material .
+[3
+
+
+
+
+] [4] [5] [6]
+Overfull \hbox (10.20442pt too wide) in paragraph at lines 130--131
+\T1/ppl/m/n/10.95 ten-te Mög-lich-keit, Accessibility-Features wie Tas-ta-tur-zu-gäng-lich-keit und Screen-
  []
 
 
-Overfull \hbox (9.56499pt too wide) in paragraph at lines 290--290
-[][]\T1/ppl/m/n/10.95 Bundesfachstelle Bar-rie-re-frei-heit (o.D.). \T1/ppl/m/it/10.95 Wie ist Bar-rie-re-frei-heit de-fi-niert? \T1/ppl/m/n/10.95 de. \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https :
+Overfull \hbox (1.18237pt too wide) in paragraph at lines 147--148
+\T1/ppl/m/n/10.95 und un-ter-stüt-zen Tas-ta-tur-zu-gäng-lich-keit, Screenreader-Unterstützung und an-
  []
 
+
+Overfull \hbox (0.22989pt too wide) in paragraph at lines 147--148
+\T1/ppl/m/n/10.95 de-re Accessibility-Features, die die Bar-rie-re-frei-heit von We-ban-wen-dun-gen ver-
+ []
+
+
+Overfull \hbox (1.13908pt too wide) in paragraph at lines 150--151
+[]\T1/ppl/m/n/10.95 Gute Do-ku-men-ta-ti-on: He-ad-les-sUI bie-tet ei-ne aus-führ-li-che Do-ku-men-ta-ti-on und
+ []
+
+[7]) [8]
+\openout2 = `Chapters/AccessabilityTools.aux'.
+
+ (./Chapters/AccessabilityTools.tex
+Kapitel 4.
 1: section
 [9
 
 
 
-] (./main.aux (./Chapters/Introduction.aux) (./Chapters/Timetable.aux) (./Chapters/Research.aux))
+
+] [10]) [11]
+\openout2 = `Chapters/Turbomeet.aux'.
+
+ (./Chapters/Turbomeet.tex
+Kapitel 5.
+1: section
+[12
+
+
+
+
+]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 39.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Overfull \hbox (0.70003pt too wide) in paragraph at lines 39--40
+\T1/ppl/m/n/10.95 tRPC ist ein Open-Source-Framework, das es Ent-wick-lern er-mög-licht, API End-punk-
+ []
+
+
+Overfull \hbox (39.03624pt too wide) in paragraph at lines 55--56
+\T1/ppl/m/n/10.95 Au-then-ti-fi-zie-rungs-me-tho-den zu im-ple-men-tie-ren, wie z.B. OAuth, E-Mail-Authentifizierung,
+ []
+
+[13]
+<Figures/radix_dialog_keyboard.png, id=310, 561.09625pt x 377.41pt>
+File: Figures/radix_dialog_keyboard.png Graphic file (type png)
+<use Figures/radix_dialog_keyboard.png>
+Package pdftex.def Info: Figures/radix_dialog_keyboard.png  used on input line 69.
+(pdftex.def)             Requested size: 404.02908pt x 271.75803pt.
+) [14 <./Figures/radix_dialog_keyboard.png>]
+\openout2 = `Chapters/Conclusion.aux'.
+
+ (./Chapters/Conclusion.tex
+Kapitel 6.
+)
+1: section
+[15
+
+
+
+
+]
+Overfull \hbox (2.86644pt too wide) in paragraph at lines 291--291
+[][]\T1/ppl/m/n/10.95 Angular Com-ponents Team (o.D.). \T1/ppl/m/it/10.95 An-gu-lar Ma-te-ri-al\T1/ppl/m/n/10.95 . en-US. \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / material .
+ []
+
+
+Overfull \hbox (9.56499pt too wide) in paragraph at lines 291--291
+[][]\T1/ppl/m/n/10.95 Bundesfachstelle Bar-rie-re-frei-heit (o.D.). \T1/ppl/m/it/10.95 Wie ist Bar-rie-re-frei-heit de-fi-niert? \T1/ppl/m/n/10.95 de. \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https :
+ []
+
+1: section
+[16
+
+
+
+] (./main.aux (./Chapters/Introduction.aux) (./Chapters/Timetable.aux) (./Chapters/Research.aux) (./Chapters/AccessabilityTools.aux) (./Chapters/Turbomeet.aux) (./Chapters/Conclusion.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3D1D6D196ED586948B7D9E40ECADA23C;2425.
+(rerunfilecheck)             Checksum: C10CA75BDD2DF1DF3A68AA920D9920BC;4141.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28300 strings out of 478287
- 617467 string characters out of 5849288
- 1102100 words of memory out of 5000000
- 46097 multiletter control sequences out of 15000+600000
- 502324 words of font info for 78 fonts, out of 8000000 for 9000
+ 28459 strings out of 478287
+ 622069 string characters out of 5849288
+ 1113848 words of memory out of 5000000
+ 46208 multiletter control sequences out of 15000+600000
+ 506180 words of font info for 82 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 96i,19n,93p,1866b,2367s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (19 pages, 127552 bytes).
+ 96i,20n,93p,1866b,2367s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (21 pages, 179062 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 350 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 294 words of extra memory for PDF output out of 10000 (max. 10000000)
 

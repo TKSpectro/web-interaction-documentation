@@ -1,0 +1,55 @@
+\chapter{Accessibility Tools}
+\label{AccessabilityTools}
+
+\section{Lighthouse}
+\label{sec:a11yToolsLighthouse}
+
+Lighthouse ist ein Open-Source-Tool von Google, das zur Verbesserung der Qualität von Webanwendungen verwendet wird. Es bietet eine umfassende Prüfung der Leistung, Zugänglichkeit, Best Practices, SEO und PWA-Funktionalitäten. Das Tool ist als Chrome-Erweiterung oder über die Kommandozeile verfügbar.
+
+Die wichtigsten Features von Lighthouse sind:
+
+\begin{itemize}
+    \item Performance-Prüfung: Lighthouse kann eine detaillierte Analyse der Ladezeit und der allgemeinen Leistung der Webanwendung durchführen. Es zeigt, welche Teile der Anwendung optimiert werden können und bietet Tipps zur Verbesserung der Geschwindigkeit.
+    \item Accessability-Prüfung: Lighthouse kann die Zugänglichkeit der Webanwendung prüfen und zeigt, welche Elemente die Barrierefreiheit beeinträchtigen. Es bietet auch Tipps zur Verbesserung der Zugänglichkeit.
+    \item Best Practices-Prüfung: Lighthouse prüft, ob die Webanwendung den gängigen Best Practices entspricht und bietet Empfehlungen zur Verbesserung der Code-Qualität.
+    \item SEO-Prüfung: Lighthouse kann auch die Suchmaschinenoptimierung (SEO) der Webanwendung prüfen und gibt Empfehlungen zur Optimierung von Meta Tags, Keywords und anderen wichtigen SEO-Faktoren.
+\end{itemize}
+
+Ein wichtiger Faktor für die Performance Tests ist, dass wenn möglich keine Erweiterungen im Browser installiert sein sollten, da diese die Ergebnisse verfälschen können.
+
+Während meiner Tests ist dies im Besonderen bei der Erweiterung \textit{React Developer Tools} aufgefallen. Diese Erweiterung ist sehr nützlich, da sie es ermöglicht, die React Komponenten einer Seite zu untersuchen. Allerdings kann sie die Ergebnisse der Performance Tests verfälschen, da sie die Seite stark verlangsamt. Daher sollte diese Erweiterung vor dem Start der Performance Tests deaktiviert werden. Am besten ist es einen separaten Browser zu verwenden, in dem keine Erweiterungen installiert sind oder nur die die auch ein normaler Nutzer installiert hat. (z.B. PrivacyBadger, uBlock Origin, etc.)
+
+\section{IBM Equal Access Accessibility Checker}
+\label{sec:a11yToolsIBMEAAC}
+
+IBM Equal Access Accessibility Checker ist ein browserbasiertes Tool, das zur Überprüfung der Barrierefreiheit von Webseiten genutzt werden kann. Das Tool ist kostenlos und bietet eine Vielzahl von Funktionen, die die Barrierefreiheit von Webinhalten verbessern können. Einige der wichtigsten Funktionen von IBM Equal Access Accessibility Checker sind:
+
+\begin{itemize}
+    \item Manuelle Überprüfung: Es ist möglich, manuelle Überprüfungen für spezifische Elemente durchzuführen, um detailliertere Informationen über Barrierefreiheitsprobleme zu erhalten.
+    \item Berichterstellung: Das Tool bietet detaillierte Berichte zur Barrierefreiheit, die auf WCAG 2.1 basieren und dabei helfen können, Barrieren für Menschen mit Behinderungen zu identifizieren und zu beseitigen.
+    \item Automatisierung: Das Tool kann auch als Teil eines automatisierten Testprozesses verwendet werden, um die Barrierefreiheit von Webinhalten zu überprüfen. Dies kann beispielsweise in CI/CD-Pipelines integriert werden, um sicherzustellen, dass die Barrierefreiheit von Webinhalten bei jeder Änderung überprüft wird. Dafür können die direkt bereitgestellten NPM Pakete für Karma und Cypress verwendet werden.
+    \item Kontrastprüfung: Das Tool kann den Kontrast von Text und Hintergrund automatisch prüfen und anzeigen.
+    \item Strukturprüfung: WAVE kann die semantische Struktur von Webinhalten analysieren, um sicherzustellen, dass sie korrekt aufgebaut sind.
+\end{itemize}
+
+\section{WAVE}
+\label{sec:a11yToolsWAVE}
+
+WAVE (Web Accessibility Evaluation Tool) wird als browserbasiertes Tool und API bzw. Test-Engine bereitgestellt. Es ist ein Open-Source-Tool, das von der WebAIM-Organisation entwickelt wird. Das Feature Set ist hierbei sehr ähnlich zu IBM Equal Access Accessibility Checker.
+
+\section{Axe}
+\label{sec:a11yToolsAxe}
+
+Deque Axe wird wie auch die Vorgänger als Brower-Erweiterung und als Bibliothekt zur Integration in Test-Engines bereitgestellt. Außerdem bietet es eine Developer-Tools Variante mit der Entwickler bereits während der Entwicklung auf Barrierefreiheitsprobleme hingewiesen werden. Die Erweiterung ist eingeschränkt kostenlos, um aber den vollen Funktionsumfang zu erhalten ist eine Pro-Version (45€) notwendig. Dazu zählen unter anderem auch die CLI sowie CI-CD Integration.
+
+\section{JAWS}
+\label{sec:a11yToolsJAWS}
+
+JAWS ist ein Screenreader, der von der Firma Freedom Scientific entwickelt wird. Er ist für Windows verfügbar und kann kostenlos ``getestet`` werden. (40min. Session danach Neustart erforderlich) Er ist der am weitesten verbreitete Screenreader und wird von vielen Behörden und Unternehmen verwendet. Er ist in der Lage, die meisten Webseiten zu lesen und bietet eine Vielzahl von Funktionen, die die Barrierefreiheit von Webinhalten verbessern können. Der größte Nachteil von JAWS ist, dass die Lizenzen sehr teuer sind. Die Preise für eine dauerhafte einzelne Lizenz beginnen bei 1.000 US-Dollar bzw. mit einem Jahresabonnement bei 90 US-Dollar.
+
+Neben Webseiten kann JAWS auch mit Microsoft Office, PDFs, E-Mails und anderen Anwendungen verwendet werden. Sodass auch andere Programme barrierefrei genutzt werden können. Für die Ausgabe steht sowohl eine Sprachausgabe als auch eine Brailleausgabe zur Verfügung. Texte können hierbei sogar in Kurzfassung ausgegeben werden.
+
+\section{NVDA}
+\label{sec:a11yToolsNVDA}
+
+NVDA (NonVisual Desktop Access) ist ein Screenreader, der von der Firma NV Access entwickelt wird. Er ist Opensource auf \href{https://github.com/nvaccess/nvda/}{Github} verfügbar und kann kostenlos heruntergeladen werden. Dies auch einer der Gründe, warum er so beliebt ist. Denn die meisten Screenreader sind sehr teuer. Er ist in der Lage, die meisten Webseiten zu lesen und bietet eine Vielzahl von Funktionen. Durch die Open-Source Natur ist es möglich, die Software zu verbessern und neue Funktionen hinzuzufügen. Dies wird auch sehr aktiv von der Community vorrangetrieben und es gibt eine Vielzahl von Erweiterungen, die die Funktionalität von NVDA erweitern.

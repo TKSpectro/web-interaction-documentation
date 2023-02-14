@@ -5,6 +5,9 @@ The style file: biblatex.bst
 A level-1 auxiliary file: Chapters/Introduction.aux
 A level-1 auxiliary file: Chapters/Timetable.aux
 A level-1 auxiliary file: Chapters/Research.aux
+A level-1 auxiliary file: Chapters/AccessabilityTools.aux
+A level-1 auxiliary file: Chapters/Turbomeet.aux
+A level-1 auxiliary file: Chapters/Conclusion.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -25,44 +28,44 @@ Database file #2: zotero.bib
 Biblatex version: 3.17
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 9 entries,
+You've used 10 entries,
             6399 wiz_defined-function locations,
-            1257 strings with 11336 characters,
-and the built_in function-call counts, 62916 in all, are:
-= -- 3881
-> -- 2909
-< -- 340
-+ -- 2612
-- -- 2149
-* -- 4422
-:= -- 7167
+            1266 strings with 11730 characters,
+and the built_in function-call counts, 68214 in all, are:
+= -- 4107
+> -- 3255
+< -- 380
++ -- 2906
+- -- 2414
+* -- 4722
+:= -- 7750
 add.period$ -- 0
-call.type$ -- 9
-change.case$ -- 99
-chr.to.int$ -- 234
-cite$ -- 16
-duplicate$ -- 4542
-empty$ -- 5684
-format.name$ -- 398
-if$ -- 11855
+call.type$ -- 10
+change.case$ -- 108
+chr.to.int$ -- 258
+cite$ -- 18
+duplicate$ -- 5033
+empty$ -- 6142
+format.name$ -- 444
+if$ -- 12791
 int.to.chr$ -- 0
-int.to.str$ -- 33
+int.to.str$ -- 35
 missing$ -- 0
-newline$ -- 304
-num.names$ -- 389
-pop$ -- 2629
+newline$ -- 332
+num.names$ -- 430
+pop$ -- 2954
 preamble$ -- 1
-purify$ -- 115
+purify$ -- 126
 quote$ -- 0
-skip$ -- 1618
+skip$ -- 1797
 stack$ -- 0
-substring$ -- 8625
-swap$ -- 1404
-text.length$ -- 300
-text.prefix$ -- 8
+substring$ -- 9015
+swap$ -- 1554
+text.length$ -- 335
+text.prefix$ -- 9
 top$ -- 1
-type$ -- 294
+type$ -- 328
 warning$ -- 0
-while$ -- 582
+while$ -- 636
 width$ -- 0
-write$ -- 296
+write$ -- 323

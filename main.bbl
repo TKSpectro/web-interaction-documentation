@@ -87,6 +87,35 @@
     \field{urlyear}{2022}
   \endentry
 
+  \entry{httpstrpcio_trpctrpc_nodate}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=h}{%
+         family={{https://trpc.io/}},
+         familyi={h\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{h1}
+    \strng{fullhash}{h1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{trpc/trpc: {Move} {Fast} and {Break} {Nothing}. {End}-to-end
+  typesafe {APIs} made easy.}
+    \verb{url}
+    \verb https://github.com/trpc/trpc
+    \endverb
+    \verb{file}
+    \verb trpc/trpc\: 🧙‍♀️ Move Fast and Break Nothing. End-to-end typ
+    \verb esafe APIs made easy.:/home/spectro/Zotero/storage/LPPR2FSF/trpc.html
+    \verb :text/html
+    \endverb
+    \field{urlday}{14}
+    \field{urlmonth}{02}
+    \field{urlyear}{2023}
+  \endentry
+
   \entry{initiative_wai_developing_nodate}{misc}{}
     \name{author}{1}{}{%
       {{hash=IWWWA}{%
