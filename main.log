@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.20)  17 FEB 2023 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.20)  17 FEB 2023 19:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -961,22 +961,22 @@ Kapitel 6.
 
  (./Appendices/Images.tex
 Anhang A.
-<Figures/cmdk_github.png, id=390, 734.745pt x 593.21625pt>
+<Figures/cmdk_github.png, id=391, 734.745pt x 593.21625pt>
 File: Figures/cmdk_github.png Graphic file (type png)
 <use Figures/cmdk_github.png>
 Package pdftex.def Info: Figures/cmdk_github.png  used on input line 6.
 (pdftex.def)             Requested size: 363.6237pt x 293.5841pt.
-<Figures/cmdk_linear.png, id=391, 658.46pt x 426.59375pt>
+<Figures/cmdk_linear.png, id=392, 658.46pt x 426.59375pt>
 File: Figures/cmdk_linear.png Graphic file (type png)
 <use Figures/cmdk_linear.png>
 Package pdftex.def Info: Figures/cmdk_linear.png  used on input line 14.
 (pdftex.def)             Requested size: 363.6237pt x 235.58414pt.
-<Figures/cmdk_tailwindcss.png, id=392, 775.89874pt x 762.85pt>
+<Figures/cmdk_tailwindcss.png, id=393, 775.89874pt x 762.85pt>
 File: Figures/cmdk_tailwindcss.png Graphic file (type png)
 <use Figures/cmdk_tailwindcss.png>
 Package pdftex.def Info: Figures/cmdk_tailwindcss.png  used on input line 22.
 (pdftex.def)             Requested size: 363.6237pt x 357.51521pt.
-<Figures/lighthouse_mobile_1.png, id=393, 537.00626pt x 895.345pt>
+<Figures/lighthouse_mobile_1.png, id=394, 537.00626pt x 895.345pt>
 File: Figures/lighthouse_mobile_1.png Graphic file (type png)
 <use Figures/lighthouse_mobile_1.png>
 Package pdftex.def Info: Figures/lighthouse_mobile_1.png  used on input line 30.
@@ -1019,10 +1019,10 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  96i,20n,93p,1866b,2518s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (28 pages, 603629 bytes).
+Output written on main.pdf (28 pages, 603760 bytes).
 PDF statistics:
- 484 PDF objects out of 1000 (max. 8388607)
- 417 compressed objects within 5 object streams
+ 485 PDF objects out of 1000 (max. 8388607)
+ 418 compressed objects within 5 object streams
  91 named destinations out of 1000 (max. 500000)
  371 words of extra memory for PDF output out of 10000 (max. 10000000)
 
