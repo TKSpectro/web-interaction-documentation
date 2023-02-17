@@ -66,9 +66,61 @@ In der Dokumenation zu den einzelnen Komponenten werden außerdem die Accessabil
 
 \begin{figure}[th]
 \centering
-\includegraphics[width=\textwidth]{Figures/radix_dialog_keyboard.png}
+\includegraphics[width=0.75\textwidth]{Figures/radix_dialog_keyboard.png}
 \decoRule
 \caption[Dialog Accessability Dokumenation]{Radix UI Dialog Accessability Dokumenation}
 \label{fig:radix_dialog_keyboard}
 \end{figure}
 
+\subsection{CmdK}
+
+CmdK ist eine Open-Source-Library, die eine Komponenten basierte Accessability optimierte \textit{Combobox} bereitstellt. Eine \textit{Combobox} ist eine Kombination aus einem \textit{Input} und einer \textit{Dropdown} Liste. Diese wird inzwischen häufig auf Webseiten/Tools wie GitHub, Linear und TailwindCSS (siehe Abbildungen \ref{fig:cmdk_github}, \ref{fig:cmdk_linear}, \ref{fig:cmdk_tailwindcss}) genutzt um zum einen eine Suchfunktion zu implementieren oder um eine Liste von Aktionen / Optionen anzuzeigen. Die Tastenkombinationen für solche Funktionen sind von System zu System unterschiedlich. Zum Beispiel stellt macOS unter \emph{Cmd + Leertaste} eine Globale Such/Kommandofunktion zur Verfügung auf Webseiten wird meist eher \emph{Cmd + K} (macOs) oder \emph{Ctrl + K} (Windows) verwendet. Eine weitere Variante ist das einfache drücken von ``/``. Dies ist aber z.B. auf dem deutschen QWERTZ-Tastatur Layout nicht direkt möglich.
+
+\begin{figure}[th]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Figures/turbomeet_cmdk.png}
+    \decoRule
+    \caption[Turbomeet Kombobox]{Turbomeet Kombobox für Seitennavigation/Suche}
+    \label{fig:turbomeet_cmdk}
+\end{figure}
+
+Die Implementierung in Turbomeet (siehe Abbildung \ref{fig:turbomeet_cmdk}) lässt quasi alle oben genannten Kombinationen zu um Systemunabhängig für verschiedene Nutzer einfach bedienbar zu sein.
+
+Zur Auswahl stehen unter anderem die Hauptseite wie das Dashboard, Nutzerprofil oder die Datenschutzerklärung, dazu werden außerdem Direkt-Verlinkungen zu den eigenen Meetings mit angezeigt. Des Weiteren werden Funktionen wie das erstellen von neuen Meetings oder das wechseln des Themes direkt ansprechbar gemacht.
+
+Diese Funktionalität ist auch für die Accessability ein sehr interessantes Feature. So kann z.B. ein Screenreader Nutzer die Kombobox öffnen und die verfügbaren Optionen durchlesen. Wenn ein Nutzer eine Seite bereits kennt, kann er durch die Suche direkt zu dieser springen ohne erst durch verschlungene Navigationen und Submenüs zu navigieren. Hierbei sind aber auch wieder die Entwickler gefragt um die Suchbegriffe so zu wählen, dass sie für den Nutzer intuitiv sind. Dies kann z.B. auch durch eine duplizierte Navigation unter verschiedenen Begriffen erreicht werden. Dies wäre in einer normalen Navigation nicht möglich, da die Navigation dann zu unübersichtlich wird.
+
+Ein großer Vorteil von CmdK ist, dass es für die Dialog/Popover Implementierung Radix-UI als Basis nutzt. Dies ist für Turbomeet von Vorteil, da Radix sowieso genutzt und geladen wird und somit keine zusätzlichen Abhängigkeiten hinzugefügt werden müssen und darauf vertraut werden kann, dass die Accessability Features von Radix auch in CmdK implementiert sind.
+
+\section{Analyse}
+
+\subsection{Lighthouse}
+
+Da Lighthouse eines der am einfachsten und schnellsten Tools für eine Analyse auch während der Entwicklung ist habe ich mich vorrangig darauf gestützt. Die Ergebnisse wahren hier auch immer recht gut und ich konnte so schnell die kleinen Dinge verbessern, die noch nicht optimal waren. Die Ergebnisse von einem Zwischenstand sind in der folgenden Abbildung \ref{fig:lighthouse_desktop_1} zu sehen. Die kompletten Berichte sind als PDF verfügbar, aber nicht im Anhang eingebunden, da diese über 100 Seiten umfassen. Daher sind sie über die folgenden Links erreichbar: \href{URL}{text}
+
+\begin{figure}[th]
+    \centering
+    \includegraphics[width=0.45\textwidth]{Figures/lighthouse_desktop_1.png}
+    \includegraphics[width=0.45\textwidth]{Figures/lighthouse_desktop_2.png}
+    \decoRule
+    \caption[Turbomeet Lighthouse Bericht Desktop]{Lighthouse Bericht für Desktop}
+    \label{fig:lighthouse_desktop_1}
+\end{figure}
+
+Im Bereich Accessability wurde hier z.B. darauf hingewiesen, dass die Hinter- /Vordergrund (Text) Farben zu wenig Kontrast haben und dass bei vielen Links die Beschreibungen fehlen. Als ich dann aber die Analyse noch einmal für das Mobile-Preset durchgeführt habe (siehe Abbildung \ref{fig:lighthouse_mobile_1}) 
+sank die Performance von 91\% auf gerade einmal 52\%, die TTI (Time to Interactive) von 0.6s auf 6.7s und die LCP (Largest Contentful Paint) von 1.8s auf 9.2s.
+
+\begin{figure}[th]
+    \centering
+    \includegraphics[width=0.45\textwidth]{Figures/lighthouse_desktop_4.png}
+    \includegraphics[width=0.45\textwidth]{Figures/lighthouse_mobile_2.png}
+    \decoRule
+    \caption[Turbomeet Lighthouse Bericht Chromium]{Lighthouse Bericht Chromium (links: Desktop, rechts: Mobile)}
+    \label{fig:lighthouse_mobile_2}
+\end{figure}
+
+Glücklicherweise gab Lighthouse aber auch direkt den richtigen Tipp, welchen bereits im Kapitel \ref{sec:a11yToolsLighthouse} beschrieben wurde. Durch das Testen in meinem normalen Browser waren verschiedene Erweiterungen aktiv, welche sich in den Render Prozess von React einhängen um so während der Entwicklung States und ähnliche Dinge auszulesen. Aus diesem Grund schlägt Lighhouse hier vor, die Erweiterungen zu deaktivieren oder auf einen Inkognito Modus umzusteigen. Mit einem erneuten Test in einem cleanen Chromium Browser wurde nun wieder eine sehr gute Performance erreicht, jedoch sank die Accessability trotzdem noch auf 87\%. Dies liegt daran, dass Lighthouse in der Mobilen Variante alle Links als Buttons interpretiert und somit die Beschreibungen für die Button (Links) verlangt. Anscheinend weißt Lighthouse diesem dann auch mehr Gewicht zu als in der Desktop Variante. Dies ist aber auch kein Problem, da die Beschreibungen für die Links sowieso noch fehlen und somit schnell nachgeholt werden können.
+
+Daraus lässt sich mitnehmen, immer beide Varianten zu testen, da die Ergebnisse sich unterscheiden können und auch verschiedene Optimierungen für Desktop und Mobile getroffen werden müssen. 
+
+Die Punkte SEO und Best Practices wurden hierbei in beiden Varianten mit 100\% bewertet und dies ohne das extra Aufwände dafür getätigt werden mussten. Dies liegt daran, dass Turbomeet auf einen Technologie Stack aufbaut, welcher zum einen Next.js und das SSR Feature nutzt, wodurch die Seiten bereits vor dem Laden der Seite, auf dem Server, gerendert werden und somit auch schon für Suchmaschinen verfügbar sind (Crawlable für Google Bots). Zum anderen wird TypeScript genutzt, durch welches die neusten Features von JavaScript auch in älteren Browser polyfilled und deprecated APIs vermieden werden und somit eine sehr gute Performance erreicht wird.
