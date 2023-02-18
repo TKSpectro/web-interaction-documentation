@@ -36,6 +36,10 @@
 \contentsline {subsection}{\numberline {5.1.8}CmdK}{14}{subsection.41}%
 \contentsline {section}{\numberline {5.2}Analyse}{16}{section.43}%
 \contentsline {subsection}{\numberline {5.2.1}Lighthouse}{16}{subsection.44}%
-\contentsline {chapter}{\numberline {6}Fazit}{18}{chapter.47}%
-\contentsline {chapter}{\numberline {A}Abbildungen}{19}{appendix.48}%
-\contentsline {chapter}{Literatur}{22}{appendix*.53}%
+\contentsline {section}{\numberline {5.3}Accessability Anpassungen}{18}{section.47}%
+\contentsline {subsection}{\numberline {5.3.1}Fehlende Link Beschreibungen}{18}{subsection.48}%
+\contentsline {subsection}{\numberline {5.3.2}Farbkontraste}{18}{subsection.56}%
+\contentsline {chapter}{\numberline {6}Fazit}{19}{chapter.57}%
+\contentsline {chapter}{\numberline {A}Abbildungen}{20}{appendix.58}%
+\contentsline {chapter}{\numberline {B}Quellcode}{23}{appendix.63}%
+\contentsline {chapter}{Literatur}{24}{appendix*.104}%

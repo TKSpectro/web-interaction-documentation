@@ -95,6 +95,7 @@ Ein großer Vorteil von CmdK ist, dass es für die Dialog/Popover Implementierun
 \section{Analyse}
 
 \subsection{Lighthouse}
+\label{ssec:lighthouse}
 
 Da Lighthouse eines der am einfachsten und schnellsten Tools für eine Analyse auch während der Entwicklung ist habe ich mich vorrangig darauf gestützt. Die Ergebnisse wahren hier auch immer recht gut und ich konnte so schnell die kleinen Dinge verbessern, die noch nicht optimal waren. Die Ergebnisse von einem Zwischenstand sind in der folgenden Abbildung \ref{fig:lighthouse_desktop_1} zu sehen. Die kompletten Berichte sind als PDF verfügbar, aber nicht im Anhang eingebunden, da diese über 100 Seiten umfassen. Daher sind sie über den folgenden Link abrufbar: \href{https://github.com/TKSpectro/web-interaction-documentation/tree/master/Reports}{GitHub.com/TKSpectro/web-interaction-documentation}.
 
@@ -107,7 +108,7 @@ Da Lighthouse eines der am einfachsten und schnellsten Tools für eine Analyse a
     \label{fig:lighthouse_desktop_1}
 \end{figure}
 
-Im Bereich Accessability wurde hier z.B. darauf hingewiesen, dass die Hinter- /Vordergrund (Text) Farben zu wenig Kontrast haben und dass bei vielen Links die Beschreibungen fehlen. Als ich dann aber die Analyse noch einmal für das Mobile-Preset durchgeführt habe (siehe Abbildung \ref{fig:lighthouse_mobile_1}) 
+Im Bereich Accessability wurde darauf hingewiesen, dass die Hinter- /Vordergrund (Text) Farben zu wenig Kontrast haben und dass bei Links die Beschreibungen fehlen. Als ich dann aber die Analyse noch einmal für das Mobile-Preset durchgeführt habe (siehe Abbildung \ref{fig:lighthouse_mobile_1}) 
 sank die Performance von 91\% auf gerade einmal 52\%, die TTI (Time to Interactive) von 0.6s auf 6.7s und die LCP (Largest Contentful Paint) von 1.8s auf 9.2s.
 
 \begin{figure}[th]
@@ -119,8 +120,32 @@ sank die Performance von 91\% auf gerade einmal 52\%, die TTI (Time to Interacti
     \label{fig:lighthouse_mobile_2}
 \end{figure}
 
-Glücklicherweise gab Lighthouse aber auch direkt den richtigen Tipp, welchen bereits im Kapitel \ref{sec:a11yToolsLighthouse} beschrieben wurde. Durch das Testen in meinem normalen Browser waren verschiedene Erweiterungen aktiv, welche sich in den Render Prozess von React einhängen um so während der Entwicklung States und ähnliche Dinge auszulesen. Aus diesem Grund schlägt Lighhouse hier vor, die Erweiterungen zu deaktivieren oder auf einen Inkognito Modus umzusteigen. Mit einem erneuten Test in einem cleanen Chromium Browser wurde nun wieder eine sehr gute Performance erreicht, jedoch sank die Accessability trotzdem noch auf 87\%. Dies liegt daran, dass Lighthouse in der Mobilen Variante alle Links als Buttons interpretiert und somit die Beschreibungen für die Button (Links) verlangt. Anscheinend weißt Lighthouse diesem dann auch mehr Gewicht zu als in der Desktop Variante. Dies ist aber auch kein Problem, da die Beschreibungen für die Links sowieso noch fehlen und somit schnell nachgeholt werden können.
+Glücklicherweise gab Lighthouse aber auch direkt den richtigen Tipp, welcher bereits im Kapitel \ref{sec:a11yToolsLighthouse} beschrieben wurde. Durch das Testen in meinem normalen Browser waren verschiedene Erweiterungen aktiv, welche sich in den Render Prozess von React einhängen um so während der Entwicklung States und ähnliche Dinge auszulesen. Aus diesem Grund schlägt Lighhouse hier vor, die Erweiterungen zu deaktivieren oder auf einen Inkognito Modus umzusteigen. Mit einem erneuten Test in einem cleanen Chromium Browser wurde nun wieder eine sehr gute Performance erreicht, jedoch sank die Accessability trotzdem noch auf 87\%. Dies liegt daran, dass Lighthouse in der Mobilen Variante alle Links als Buttons interpretiert und somit die Beschreibungen für die Button (Links) verlangt. Anscheinend weißt Lighthouse diesem dann auch mehr Gewicht zu als in der Desktop Variante. Dies ist aber auch kein Problem, da die Beschreibungen für die Links sowieso noch fehlen und somit schnell nachgeholt werden können.
 
 Daraus lässt sich mitnehmen, immer beide Varianten zu testen, da die Ergebnisse sich unterscheiden können und auch verschiedene Optimierungen für Desktop und Mobile getroffen werden müssen. 
 
 Die Punkte SEO und Best Practices wurden hierbei in beiden Varianten mit 100\% bewertet und dies ohne das extra Aufwände dafür getätigt werden mussten. Dies liegt daran, dass Turbomeet auf einen Technologie Stack aufbaut, welcher zum einen Next.js und das SSR Feature nutzt, wodurch die Seiten bereits vor dem Laden der Seite, auf dem Server, gerendert werden und somit auch schon für Suchmaschinen verfügbar sind (Crawlable für Google Bots). Zum anderen wird TypeScript genutzt, durch welches die neusten Features von JavaScript auch in älteren Browser polyfilled und deprecated APIs vermieden werden und somit eine sehr gute Performance erreicht wird.
+
+\section{Accessability Anpassungen}
+
+Durch die Analyse mit Hilfe von \hyperref[ssec:lighthouse]{Lighthouse} wurden wie im letztzen Kapitel beschrieben kleinere Accessability Probleme festgestellt. Um diese zu beheben wurden die folgende Anpassungen durchgeführt.
+
+\subsection{Fehlende Link Beschreibungen}
+
+Dieser Fehler ist sehr einfach zu beheben, da hierzu einfach nur das \emph{aria-label} Tag auf den entsprechenden HTML-Elementen gesetzt werden muss.
+Wie aber bereits in den Recherche Kapitel \ref{ssec:research_accessibleNameAndDescriptions} beschrieben, muss darauf geachtet werden, ein möglichst kurzes aber erklärendes Label zu verwenden.
+
+Die Anpassung für z.B. die GitHub Verlinkung sieht wie folgt aus:
+
+\begin{lstlisting}
+<Link
+  href="https://github.com/TKSpectro/turbomeet"
+  aria-label="Github Projekt turbomeet"
+>
+  <FiGithub className="float-right h-7 w-7" />
+</Link>
+\end{lstlisting}
+
+\subsection{Farbkontraste}
+
+Der Punkt Farbkontraste wurde an vielen verschiedenen Elementen angemerkt. Dies kann in dem ausführlichen Bericht nachvollzogen werden. Das Problem hierbei war, dass diese Kontraste auch z.B. zwischen dem Seitenhintergrund und den Card Elementen entstand, welche nur die vordefinierten Farben von TailwindCSS (\emph{bg-gray-900} und \emph{bg-gray-800}) nutzten. Die Standardwerte der Grautöne sind durch einen relativ starken blauen Unterton eher kritisch für die Accessability. Genau dieses Problem hatte ich bereits in einem vorherigen Projekt, welches ebenfalls TailwindCSS genutzt hat, erkannt und behoben. (\href{https://github.com/TKSpectro/budgetify}{GitHub.com/TKSpectro/budgetify}). Die Lösung ist mit Hilfe der Tailwind Konfigurationsdatei möglich. In dieser können die defnierten Farben durch Accessability freundlichere Grautöne überschreiben werden. (siehe Listing \ref{listing:tailwindcss_config})
