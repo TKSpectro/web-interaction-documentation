@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.20)  18 FEB 2023 12:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.20)  19 FEB 2023 12:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -830,18 +830,6 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 1: section
 [3
 
-] (./main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
-
-
-1: section
-[4
-
-]
-1: section
-[5
-
 ]
 1: section
 \openout2 = `Chapters/Introduction.aux'.
@@ -886,22 +874,27 @@ Kapitel 3.
 
 
 ] [4] [5] [6]
-Overfull \hbox (10.20442pt too wide) in paragraph at lines 131--132
+Overfull \hbox (10.20442pt too wide) in paragraph at lines 132--133
 \T1/ppl/m/n/10.95 ten-te Mög-lich-keit, Accessibility-Features wie Tas-ta-tur-zu-gäng-lich-keit und Screen-
  []
 
 
-Overfull \hbox (1.18237pt too wide) in paragraph at lines 148--149
+Overfull \hbox (24.71918pt too wide) in paragraph at lines 140--141
+[]\T1/ppl/m/n/10.95 Ein wei-te-rer Nach-teil ist, dass Ent-wick-ler, die nicht ver-traut sind mit den Accessibility-
+ []
+
+
+Overfull \hbox (1.18237pt too wide) in paragraph at lines 149--150
 \T1/ppl/m/n/10.95 und un-ter-stüt-zen Tas-ta-tur-zu-gäng-lich-keit, Screenreader-Unterstützung und an-
  []
 
 
-Overfull \hbox (0.22989pt too wide) in paragraph at lines 148--149
+Overfull \hbox (0.22989pt too wide) in paragraph at lines 149--150
 \T1/ppl/m/n/10.95 de-re Accessibility-Features, die die Bar-rie-re-frei-heit von We-ban-wen-dun-gen ver-
  []
 
 
-Overfull \hbox (1.13908pt too wide) in paragraph at lines 151--152
+Overfull \hbox (1.13908pt too wide) in paragraph at lines 152--153
 []\T1/ppl/m/n/10.95 Gute Do-ku-men-ta-ti-on: He-ad-les-sUI bie-tet ei-ne aus-führ-li-che Do-ku-men-ta-ti-on und
  []
 
@@ -916,7 +909,7 @@ Kapitel 4.
 
 
 
-] [10]) [11]
+]) [10] [11]
 \openout2 = `Chapters/Turbomeet.aux'.
 
  (./Chapters/Turbomeet.tex
@@ -942,34 +935,34 @@ Overfull \hbox (39.03624pt too wide) in paragraph at lines 55--56
  []
 
 [13]
-<Figures/radix_dialog_keyboard.png, id=369, 561.09625pt x 377.41pt>
+<Figures/radix_dialog_keyboard.png, id=357, 561.09625pt x 377.41pt>
 File: Figures/radix_dialog_keyboard.png Graphic file (type png)
 <use Figures/radix_dialog_keyboard.png>
 Package pdftex.def Info: Figures/radix_dialog_keyboard.png  used on input line 69.
 (pdftex.def)             Requested size: 303.0218pt x 203.8214pt.
  [14 <./Figures/radix_dialog_keyboard.png>]
-<Figures/turbomeet_cmdk.png, id=379, 460.72125pt x 442.65375pt>
+<Figures/turbomeet_cmdk.png, id=367, 460.72125pt x 442.65375pt>
 File: Figures/turbomeet_cmdk.png Graphic file (type png)
 <use Figures/turbomeet_cmdk.png>
 Package pdftex.def Info: Figures/turbomeet_cmdk.png  used on input line 81.
 (pdftex.def)             Requested size: 242.4199pt x 232.91002pt.
  [15 <./Figures/turbomeet_cmdk.png>]
-<Figures/lighthouse_desktop_1.png, id=388, 538.01pt x 897.3525pt>
+<Figures/lighthouse_desktop_1.png, id=377, 538.01pt x 897.3525pt>
 File: Figures/lighthouse_desktop_1.png Graphic file (type png)
 <use Figures/lighthouse_desktop_1.png>
 Package pdftex.def Info: Figures/lighthouse_desktop_1.png  used on input line 104.
 (pdftex.def)             Requested size: 181.81184pt x 303.24733pt.
-<Figures/lighthouse_desktop_2.png, id=389, 532.99126pt x 511.9125pt>
+<Figures/lighthouse_desktop_2.png, id=378, 532.99126pt x 511.9125pt>
 File: Figures/lighthouse_desktop_2.png Graphic file (type png)
 <use Figures/lighthouse_desktop_2.png>
 Package pdftex.def Info: Figures/lighthouse_desktop_2.png  used on input line 105.
 (pdftex.def)             Requested size: 181.81184pt x 174.61816pt.
-<Figures/lighthouse_desktop_4.png, id=391, 547.04375pt x 743.77875pt>
+<Figures/lighthouse_desktop_4.png, id=380, 547.04375pt x 743.77875pt>
 File: Figures/lighthouse_desktop_4.png Graphic file (type png)
 <use Figures/lighthouse_desktop_4.png>
 Package pdftex.def Info: Figures/lighthouse_desktop_4.png  used on input line 116.
 (pdftex.def)             Requested size: 181.81184pt x 247.19551pt.
-<Figures/lighthouse_mobile_2.png, id=392, 541.02126pt x 800.9925pt>
+<Figures/lighthouse_mobile_2.png, id=381, 541.02126pt x 800.9925pt>
 File: Figures/lighthouse_mobile_2.png Graphic file (type png)
 <use Figures/lighthouse_mobile_2.png>
 Package pdftex.def Info: Figures/lighthouse_mobile_2.png  used on input line 117.
@@ -1001,22 +994,22 @@ Kapitel 6.
 
  (./Appendices/Images.tex
 Anhang A.
-<Figures/cmdk_github.png, id=429, 734.745pt x 593.21625pt>
+<Figures/cmdk_github.png, id=418, 734.745pt x 593.21625pt>
 File: Figures/cmdk_github.png Graphic file (type png)
 <use Figures/cmdk_github.png>
 Package pdftex.def Info: Figures/cmdk_github.png  used on input line 6.
 (pdftex.def)             Requested size: 363.6237pt x 293.5841pt.
-<Figures/cmdk_linear.png, id=430, 658.46pt x 426.59375pt>
+<Figures/cmdk_linear.png, id=419, 658.46pt x 426.59375pt>
 File: Figures/cmdk_linear.png Graphic file (type png)
 <use Figures/cmdk_linear.png>
 Package pdftex.def Info: Figures/cmdk_linear.png  used on input line 14.
 (pdftex.def)             Requested size: 363.6237pt x 235.58414pt.
-<Figures/cmdk_tailwindcss.png, id=431, 775.89874pt x 762.85pt>
+<Figures/cmdk_tailwindcss.png, id=420, 775.89874pt x 762.85pt>
 File: Figures/cmdk_tailwindcss.png Graphic file (type png)
 <use Figures/cmdk_tailwindcss.png>
 Package pdftex.def Info: Figures/cmdk_tailwindcss.png  used on input line 22.
 (pdftex.def)             Requested size: 363.6237pt x 357.51521pt.
-<Figures/lighthouse_mobile_1.png, id=432, 537.00626pt x 895.345pt>
+<Figures/lighthouse_mobile_1.png, id=421, 537.00626pt x 895.345pt>
 File: Figures/lighthouse_mobile_1.png Graphic file (type png)
 <use Figures/lighthouse_mobile_1.png>
 Package pdftex.def Info: Figures/lighthouse_mobile_1.png  used on input line 30.
@@ -1063,24 +1056,24 @@ Overfull \hbox (9.56499pt too wide) in paragraph at lines 308--308
 
 ] (./main.aux (./Chapters/Introduction.aux) (./Chapters/Timetable.aux) (./Chapters/Research.aux) (./Chapters/AccessabilityTools.aux) (./Chapters/Turbomeet.aux) (./Chapters/Conclusion.aux) (./Appendices/Images.aux) (./Appendices/Code.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A5C4C4E98FF14CD987D94BDF229BC17D;5120.
+(rerunfilecheck)             Checksum: 34CA701C43EFBFB67BBEB9F72291857E;5113.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30543 strings out of 478287
- 654764 string characters out of 5849288
- 1198730 words of memory out of 5000000
- 48175 multiletter control sequences out of 15000+600000
+ 30532 strings out of 478287
+ 654672 string characters out of 5849288
+ 1198755 words of memory out of 5000000
+ 48172 multiletter control sequences out of 15000+600000
  506180 words of font info for 82 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  96i,20n,93p,1866b,2475s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (30 pages, 612740 bytes).
+Output written on main.pdf (28 pages, 613755 bytes).
 PDF statistics:
- 574 PDF objects out of 1000 (max. 8388607)
- 504 compressed objects within 6 object streams
- 144 named destinations out of 1000 (max. 500000)
+ 563 PDF objects out of 1000 (max. 8388607)
+ 496 compressed objects within 5 object streams
+ 139 named destinations out of 1000 (max. 500000)
  403 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,45 +1,45 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{\numberline {1}Einführung}{1}{chapter.6}%
-\contentsline {chapter}{\numberline {2}Zeitplan}{2}{chapter.7}%
-\contentsline {chapter}{\numberline {3}Recherche}{3}{chapter.8}%
-\contentsline {section}{\numberline {3.1}Allgemeines}{3}{section.9}%
-\contentsline {section}{\numberline {3.2}ARIA Authoring Practices Guide (APG)}{3}{section.10}%
-\contentsline {subsection}{\numberline {3.2.1}Patterns}{3}{subsection.11}%
-\contentsline {subsection}{\numberline {3.2.2}Landmark Regions}{4}{subsection.12}%
-\contentsline {subsection}{\numberline {3.2.3}Accessible Names and Descriptions}{4}{subsection.13}%
-\contentsline {subsection}{\numberline {3.2.4}Keyboard Interface}{4}{subsection.14}%
-\contentsline {section}{\numberline {3.3}Tools zur Analyse}{5}{section.15}%
-\contentsline {section}{\numberline {3.4}Storyook}{5}{section.16}%
-\contentsline {section}{\numberline {3.5}Angular}{6}{section.17}%
-\contentsline {subsection}{\numberline {3.5.1}Material UI}{6}{subsection.18}%
-\contentsline {subsection}{\numberline {3.5.2}Google Codelab - Angular a11y}{6}{subsection.19}%
-\contentsline {section}{\numberline {3.6}React}{7}{section.20}%
-\contentsline {subsection}{\numberline {3.6.1}React-Aria}{7}{subsection.21}%
-\contentsline {subsection}{\numberline {3.6.2}HeadlessUI}{7}{subsection.22}%
-\contentsline {subsection}{\numberline {3.6.3}Radix}{8}{subsection.23}%
-\contentsline {chapter}{\numberline {4}Accessibility Tools}{9}{chapter.24}%
-\contentsline {section}{\numberline {4.1}Lighthouse}{9}{section.25}%
-\contentsline {section}{\numberline {4.2}IBM Equal Access Accessibility Checker}{9}{section.26}%
-\contentsline {section}{\numberline {4.3}WAVE}{10}{section.27}%
-\contentsline {section}{\numberline {4.4}Axe}{10}{section.28}%
-\contentsline {section}{\numberline {4.5}JAWS}{10}{section.29}%
-\contentsline {section}{\numberline {4.6}NVDA}{11}{section.30}%
-\contentsline {chapter}{\numberline {5}Turbomeet}{12}{chapter.31}%
-\contentsline {section}{\numberline {5.1}Technologien}{12}{section.32}%
-\contentsline {subsection}{\numberline {5.1.1}Next.js}{12}{subsection.33}%
-\contentsline {subsection}{\numberline {5.1.2}TypeScript}{13}{subsection.34}%
-\contentsline {subsection}{\numberline {5.1.3}tRPC}{13}{subsection.35}%
-\contentsline {subsection}{\numberline {5.1.4}TailwindCSS}{13}{subsection.36}%
-\contentsline {subsection}{\numberline {5.1.5}Prisma}{13}{subsection.37}%
-\contentsline {subsection}{\numberline {5.1.6}NextAuth.js}{13}{subsection.38}%
-\contentsline {subsection}{\numberline {5.1.7}Radix UI}{14}{subsection.39}%
-\contentsline {subsection}{\numberline {5.1.8}CmdK}{14}{subsection.41}%
-\contentsline {section}{\numberline {5.2}Analyse}{16}{section.43}%
-\contentsline {subsection}{\numberline {5.2.1}Lighthouse}{16}{subsection.44}%
-\contentsline {section}{\numberline {5.3}Accessability Anpassungen}{18}{section.47}%
-\contentsline {subsection}{\numberline {5.3.1}Fehlende Link Beschreibungen}{18}{subsection.48}%
-\contentsline {subsection}{\numberline {5.3.2}Farbkontraste}{18}{subsection.56}%
-\contentsline {chapter}{\numberline {6}Fazit}{19}{chapter.57}%
-\contentsline {chapter}{\numberline {A}Abbildungen}{20}{appendix.58}%
-\contentsline {chapter}{\numberline {B}Quellcode}{23}{appendix.63}%
-\contentsline {chapter}{Literatur}{24}{appendix*.104}%
+\contentsline {chapter}{\numberline {1}Einführung}{1}{chapter.3}%
+\contentsline {chapter}{\numberline {2}Zeitplan}{2}{chapter.4}%
+\contentsline {chapter}{\numberline {3}Recherche}{3}{chapter.5}%
+\contentsline {section}{\numberline {3.1}Allgemeines}{3}{section.6}%
+\contentsline {section}{\numberline {3.2}ARIA Authoring Practices Guide (APG)}{3}{section.7}%
+\contentsline {subsection}{\numberline {3.2.1}Patterns}{3}{subsection.8}%
+\contentsline {subsection}{\numberline {3.2.2}Landmark Regions}{4}{subsection.9}%
+\contentsline {subsection}{\numberline {3.2.3}Accessible Names and Descriptions}{4}{subsection.10}%
+\contentsline {subsection}{\numberline {3.2.4}Keyboard Interface}{4}{subsection.11}%
+\contentsline {section}{\numberline {3.3}Tools zur Analyse}{5}{section.12}%
+\contentsline {section}{\numberline {3.4}Storyook}{5}{section.13}%
+\contentsline {section}{\numberline {3.5}Angular}{6}{section.14}%
+\contentsline {subsection}{\numberline {3.5.1}Material UI}{6}{subsection.15}%
+\contentsline {subsection}{\numberline {3.5.2}Google Codelab - Angular a11y}{6}{subsection.16}%
+\contentsline {section}{\numberline {3.6}React}{7}{section.17}%
+\contentsline {subsection}{\numberline {3.6.1}React-Aria}{7}{subsection.18}%
+\contentsline {subsection}{\numberline {3.6.2}HeadlessUI}{7}{subsection.19}%
+\contentsline {subsection}{\numberline {3.6.3}Radix}{8}{subsection.20}%
+\contentsline {chapter}{\numberline {4}Accessibility Tools}{9}{chapter.21}%
+\contentsline {section}{\numberline {4.1}Lighthouse}{9}{section.22}%
+\contentsline {section}{\numberline {4.2}IBM Equal Access Accessibility Checker}{9}{section.23}%
+\contentsline {section}{\numberline {4.3}WAVE}{10}{section.24}%
+\contentsline {section}{\numberline {4.4}Axe}{10}{section.25}%
+\contentsline {section}{\numberline {4.5}JAWS}{10}{section.26}%
+\contentsline {section}{\numberline {4.6}NVDA}{11}{section.27}%
+\contentsline {chapter}{\numberline {5}Turbomeet}{12}{chapter.28}%
+\contentsline {section}{\numberline {5.1}Technologien}{12}{section.29}%
+\contentsline {subsection}{\numberline {5.1.1}Next.js}{12}{subsection.30}%
+\contentsline {subsection}{\numberline {5.1.2}TypeScript}{13}{subsection.31}%
+\contentsline {subsection}{\numberline {5.1.3}tRPC}{13}{subsection.32}%
+\contentsline {subsection}{\numberline {5.1.4}TailwindCSS}{13}{subsection.33}%
+\contentsline {subsection}{\numberline {5.1.5}Prisma}{13}{subsection.34}%
+\contentsline {subsection}{\numberline {5.1.6}NextAuth.js}{13}{subsection.35}%
+\contentsline {subsection}{\numberline {5.1.7}Radix UI}{14}{subsection.36}%
+\contentsline {subsection}{\numberline {5.1.8}CmdK}{14}{subsection.38}%
+\contentsline {section}{\numberline {5.2}Analyse}{16}{section.40}%
+\contentsline {subsection}{\numberline {5.2.1}Lighthouse}{16}{subsection.41}%
+\contentsline {section}{\numberline {5.3}Accessability Anpassungen}{18}{section.44}%
+\contentsline {subsection}{\numberline {5.3.1}Fehlende Link Beschreibungen}{18}{subsection.45}%
+\contentsline {subsection}{\numberline {5.3.2}Farbkontraste}{18}{subsection.53}%
+\contentsline {chapter}{\numberline {6}Fazit}{19}{chapter.54}%
+\contentsline {chapter}{\numberline {A}Abbildungen}{20}{appendix.55}%
+\contentsline {chapter}{\numberline {B}Quellcode}{23}{appendix.60}%
+\contentsline {chapter}{Literatur}{24}{appendix*.101}%
